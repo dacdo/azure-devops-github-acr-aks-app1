@@ -16,9 +16,6 @@ pool:
   # Task-3: Publish build articats to Azure Pipelines
 # Pipeline Hierarchial Flow: Stages -> Stage -> Jobs -> Job -> Steps -> Task1, Task2, Task3  
 
-trigger:
-- master
-
 # Variables
 variables:
   tag: '$(Build.BuildId)'
